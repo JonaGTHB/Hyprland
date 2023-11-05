@@ -85,11 +85,11 @@
     "weeks-pos"     : "right",
     "on-scroll"     : 1,
     "format": {
-    "months":     "<span color='#ffead3'><b>{}</b></span>",
-    "days":       "<span color='#ecc6d9'><b>{}</b></span>",
-    "weeks":      "<span color='#99ffdd'><b>W{}</b></span>",
-    "weekdays":   "<span color='#ffcc66'><b>{}</b></span>",
-    "today":      "<span color='#ff6699'><b><u>{}</u></b></span>"
+    "months":     "<span color='#f2f2f2'><b>{}</b></span>",
+    "days":       "<span color='#cccccc'><b>{}</b></span>",
+    "weeks":      "<span color='#a5a5a5'><b>W{}</b></span>",
+    "weekdays":   "<span color='#7f7f7f'><b>{}</b></span>",
+    "today":      "<span color='red'><b><u>{}</u></b></span>"
               }
               }
   },              
@@ -140,15 +140,15 @@
 },
    
 "hyprland/workspaces": {
-  "format": "{name}",
+  //"format": "{name}",
   //"format": "{name}: {icon}",
-  //"format": "{icon}",
+  "format": "{icon}",
   "show-special": false,
   "on-click": "activate",
   "all-outputs": true,
   "sort-by-number": true,
   "format-icons": {
-    "1": "main  ",
+    "1": "1  ",
     "2": "2  ",
     "3": "3  ",
     "4": "4  ",
