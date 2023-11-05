@@ -56,6 +56,7 @@ sddm=""
 thunar=""
 xdph=""
 zsh=""
+latex=""
 
 # Define the directory where your scripts are located
 script_directory=install-scripts
@@ -126,6 +127,7 @@ ask_yes_no "Do you want to install zsh and oh-my-zsh?" zsh
 printf "\n"
 ask_yes_no "Do you want to copy dotfiles?" dots
 printf "\n"
+ask_yes_no "Do you want to install and configure latex?" latex
 # Ensuring all in the scripts folder are made executable
 chmod +x install-scripts/*
 
@@ -173,6 +175,10 @@ fi
 
 if [ "$zsh" == "Y" ]; then
     execute_script "zsh.sh"
+fi
+
+if [ "$latex" == "Y" ]; then
+    execute_script "latex.zsh"
 fi
 
 if [ "$dots" == "Y" ]; then
