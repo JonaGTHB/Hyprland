@@ -3,9 +3,7 @@
 
 ### A re-structured install script of my Hyprland-v3 [`Link`](https://github.com/JaKooLit/Hyprland-v3)
 
-![alt text](https://github.com/JaKooLit/Ja-Hyprland/blob/main/screenshots/Sample-Tokyo-waybar.png "Default")
-
-![alt text](https://github.com/JaKooLit/Ja-Hyprland/blob/main/screenshots/dual-panel-light-dark-switch.png "Default")
+![alt text](https://github.com/JaKooLit/Ja-Hyprland/blob/main/screenshots/black_screen.png "Default")
 
 ### 📷 you can find more screenshots in the screenshots directory
 
