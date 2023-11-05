@@ -18,28 +18,21 @@
 	"cpu", 
 	"temperature", 
 	"memory",
-	//"disk",
+	"disk",
 	"custom/weather",
 	],
   
 "modules-center": [
 	"custom/menu",
-	"idle_inhibitor", 
 	"clock",
-	"custom/light_dark",	
 	"custom/lock",	
 	], 
 
 "modules-right": [
 	//"hyprland/window", 
-	"tray",
-	"cava", 
-	"battery", 
-	"backlight",
 	"pulseaudio",
 	//"wireplumber", 
 	"pulseaudio#microphone",
-	"keyboard-state",
 	"custom/power",
 	],
 }

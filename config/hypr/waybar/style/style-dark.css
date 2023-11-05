@@ -19,7 +19,7 @@ window#waybar.hidden {
 }
 
 tooltip {
-  background: #373737;
+  background: black;
   border-radius: 10px;
   border-width: 2px;
   border-style: solid;
@@ -28,32 +28,34 @@ tooltip {
 
 /*-----module groups----*/
 .modules-right {
-  background-color: #373737;
+  background-color: black;
   border: 0px solid #191919;
-  border-radius: 10px;
+  border-radius: 0px;
 }
 
 .modules-center {
-  background-color: #373737;
+  background-color: black;
   border: 0px solid #373737;
-  border-radius: 10px;
+  border-radius: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .modules-left {
-  background-color: #373737;
+  background-color: black;
   border: 0px solid #373737;
-  border-radius: 10px;
-
+  border-radius: 0px;
+  padding-right: 10px;
 }
 
 #workspaces button {
-  padding: 2px;
-  color: #4f4f4f;
+  padding: 5px;
+  color: white;
   margin-right: 5px;
 }
 
 #workspaces button.active {
-  color: #7aa2f7;
+  color: red;
   border-radius: 15px 15px 15px 15px;
 }
 
@@ -111,7 +113,7 @@ tooltip {
 #custom-weather.showyIcyDay,
 #custom-weather.snowyIcyNight,
 #custom-weather.default #idle_inhibitor {
-  color: #7aa2f7;
+  color: white;
   padding: 0px 10px;
   border-radius: 10px;
 }
@@ -119,7 +121,7 @@ tooltip {
 
 
 #temperature.critical {
-  background-color: #ff0000;
+  background-color: red;
 }
 
 @keyframes blink {
