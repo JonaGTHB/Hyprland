@@ -25,7 +25,7 @@ get_icon() {
 # Notify
 notify_user() {
 #	notify-send -h string:x-canonical-private-synchronous:sys-notify -u normal -i "$(get_icon)" "Volume : $(get_volume) %"
-	notify-send -h int:value:$(get_volume) -h "string:x-dunst-stack-tag:volume_notif" -u normal -i "$(get_icon)" "Volume : $(get_volume) %"
+	notify-send -h int:value:$(get_volume) -h "string:x-dunst-stack-tag:volume_notif" -u low -i "$(get_icon)" "Volume : $(get_volume) %"
 
 }
 
@@ -72,7 +72,7 @@ get_mic_icon() {
 # Notify
 notify_mic_user() {
 #	notify-send -h string:x-canonical-private-synchronous:sys-notify -u low -i "$(get_mic_icon)" "Mic-Level : $(pamixer --default-source --get-volume) %"
-	notify-send -h int:value:$(pamixer --default-source --get-volume) -h "string:x-dunst-stack-tag:volume_notif" -u low -i "$(get_mic_icon)" "Mic-Level : $(pamixer --default-source --get-volume) %"
+	notify-send -h int:value:$(pamixer --default-source --get-volume) -h "string:x-dunst-stack-tag:volume_notif" -u low -i "$(get_mic_icon)" "Microphone : $(pamixer --default-source --get-volume) %"
 }
 
 # Increase MIC Volume

@@ -19,43 +19,43 @@ window#waybar.hidden {
 }
 
 tooltip {
-  background: black;
-  border-radius: 10px;
-  border-width: 2px;
+  background: #292929;
+  border-radius: 0px;
+  border-width: 0.5px;
   border-style: solid;
-  border-color: #373737;
+  border-color: white;
 }
 
 /*-----module groups----*/
 .modules-right {
-  background-color: black;
-  border: 0px solid #191919;
+  border: 0.5px solid white;
+  background-color: #292929;
   border-radius: 0px;
 }
 
 .modules-center {
-  background-color: black;
-  border: 0px solid #373737;
+  background-color: #292929;
+  border: 0.5px solid white;
   border-radius: 0px;
   padding-left: 10px;
   padding-right: 10px;
 }
 
 .modules-left {
-  background-color: black;
-  border: 0px solid #373737;
+  background-color: #292929;
+  border: 0.5px solid white;
   border-radius: 0px;
   padding-right: 10px;
 }
 
 #workspaces button {
   padding: 5px;
-  color: white;
+  color: #7e7e7e;
   margin-right: 5px;
 }
 
 #workspaces button.active {
-  color: red;
+  color: #8f3838;
   border-radius: 15px 15px 15px 15px;
 }
 
@@ -113,7 +113,7 @@ tooltip {
 #custom-weather.showyIcyDay,
 #custom-weather.snowyIcyNight,
 #custom-weather.default #idle_inhibitor {
-  color: white;
+  color: #cecece;
   padding: 0px 10px;
   border-radius: 10px;
 }

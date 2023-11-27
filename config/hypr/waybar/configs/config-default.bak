@@ -1,4 +1,4 @@
-{
+
 
 "include": "~/.config/hypr/waybar/modules",
 "layer": "top",
@@ -23,11 +23,10 @@
 	],
   
 "modules-center": [
-	"clock",
+	"clock"
 	], 
 
 "modules-right": [
-	"custom/updater",
 	//"hyprland/window", 
 	"pulseaudio",
 	//"wireplumber", 
@@ -35,4 +34,3 @@
 	"custom/power",
 	],
 }
-

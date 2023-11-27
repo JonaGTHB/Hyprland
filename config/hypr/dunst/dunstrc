@@ -64,7 +64,7 @@
     progress_bar_corner_radius = 4
 
     # Corner radius for the icon image.
-    icon_corner_radius = 5
+    icon_corner_radius = 0
 
     # Show how many messages are currently hidden (because of
     # notification_limit).
@@ -73,7 +73,7 @@
     # The transparency of the window.  Range: [0; 100].
     # This option will only work if a compositing window manager is
     # present (e.g. xcompmgr, compiz, etc.). (X11 only)
-    transparency = 10
+    transparency = 30
 
     # Draw a line of "separator_height" pixel height between two
     # notifications.
@@ -88,11 +88,11 @@
     horizontal_padding = 8
 
     # Padding between text and icon.
-    text_icon_padding = 10
+    text_icon_padding = 20
 
     # Defines width in pixels of frame around the notification window.
     # Set to 0 to disable.
-    frame_width = 3
+    frame_width = 1
 
     # Defines color of the frame around the notification window.
     #frame_color = "#eba0ac"
@@ -163,7 +163,7 @@
     #   %n  progress value if set without any extra characters
     #   %%  Literal %
     # Markup is allowed
-    format = "󰟪 %a\n<b>󰋑 %s</b>\n%b"
+    format = "%a\n<b>󰋑  %s</b>\n%b"
 
     # Alignment of message text.
     # Possible values are "left", "center" and "right".
@@ -250,7 +250,7 @@
     # corners.
     # The radius will be automatically lowered if it exceeds half of the
     # notification height to avoid clipping text and/or icons.
-    corner_radius = 10
+    corner_radius = 0
 
     # Ignore the dbus closeNotification message.
     # Useful to enforce the timeout set by dunst configuration. Without this
@@ -451,15 +451,15 @@
     #default_icon = /path/to/icon
 
 [urgency_low]
-    background = "#000000"
+    background = "#292929"
     foreground = "#ffffff"
-    frame_color = "#3F4252"
+    frame_color = "#ffffff"
     icon = "~/.config/dunst/icons/hyprdots.svg"
     timeout = 10
 
 [urgency_normal]
-    background = "#000000"
+    background = "#292929"
     foreground = "#ffffff"
-    frame_color = "#AD584F"
+    frame_color = "#a04343"
     icon = "~/.config/dunst/icons/hyprdots.svg"
     timeout = 10

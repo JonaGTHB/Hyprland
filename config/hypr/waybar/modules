@@ -75,9 +75,9 @@
 },
  
 "clock": {
-  //"format": " {:%I:%M %p}",
-  "format": " {:%H:%M}",
-  "format-alt": " {:%H:%M   %Y, %d %B, %A}",
+  //"format": "  {:%I:%M %p}",
+  "format-alt": "  {:%H:%M}",
+  "format": "  {:%H:%M    %Y, %d %B, %A}",
   "tooltip-format": "<tt><small>{calendar}</small></tt>",
   "calendar": {
     "mode"          : "year",
@@ -325,7 +325,7 @@
 },
   
 "custom/updater":{
-  "format": " {}",
+  "format": "  {}",
   "exec": "checkupdates | wc -l",
   "exec-if": "[[ $(checkupdates | wc -l) ]]",
   "interval": 15,

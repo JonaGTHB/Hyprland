@@ -10,7 +10,7 @@
 	}
 	
 	#window {
-		background-color: rgba(16, 16, 16, 255);
+		background-color: rgba(41, 41, 41, 255);
 		border-radius: 0px;
 	}
 	
@@ -19,7 +19,7 @@
 	}
 	
 	#input {
-		background-color: rgba(16, 16, 16, 255);
+		background-color: rgba(41, 41, 41, 255);
 		border: none;
 		padding: 4px 6px;
 		color: #ffffff;
@@ -58,7 +58,7 @@
 		padding-left: 18px;
 		background: rgba(30, 30, 30, 255);	
 		outline: none;
-		border-left: 2px solid white;
+		border-left: 2px solid #a04343;
 	}
 	
 	#unselected {
